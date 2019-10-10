@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 25 22:00:10 IST 2019
+@default-spring-milestone-https\://repo.spring.io/milestone/.lastUpdated=1569427907501
+https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1569427930260
+https\://repo.spring.io/snapshot/.error=Could not transfer artifact org.javassist\:javassist\:jar\:3.22.0-GA from/to spring-snapshot (https\://repo.spring.io/snapshot)\: repo.spring.io
+https\://repo.spring.io/milestone/.error=Could not transfer artifact org.javassist\:javassist\:jar\:3.22.0-GA from/to spring-milestone (https\://repo.spring.io/milestone)\: repo.spring.io
+https\://repo.maven.apache.org/maven2/.lastUpdated=1569429010728
+@default-spring-snapshot-https\://repo.spring.io/snapshot/.lastUpdated=1569427908597
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=

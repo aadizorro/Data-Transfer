@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 25 23:03:24 IST 2019
+spring-boot-2.0.0.RELEASE.jar>central=
+spring-boot-2.0.0.RELEASE.pom>spring-milestone=
+spring-boot-2.0.0.RELEASE-sources.jar>spring-milestone=

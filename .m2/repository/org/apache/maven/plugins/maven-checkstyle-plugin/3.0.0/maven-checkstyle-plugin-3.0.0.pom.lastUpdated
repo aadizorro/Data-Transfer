@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jul 02 16:11:47 IST 2019
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1562064107088
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-checkstyle-plugin\:pom\:3.0.0 from/to central (https\://repo.maven.apache.org/maven2)\: No such host is known (repo.maven.apache.org)

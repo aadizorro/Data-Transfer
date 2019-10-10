@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 25 23:05:50 IST 2019
+spring-security-core-5.0.3.RELEASE-sources.jar>spring-milestone=
+spring-security-core-5.0.3.RELEASE.jar>central=
+spring-security-core-5.0.3.RELEASE.pom>spring-milestone=

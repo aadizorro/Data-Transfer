@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 25 22:00:02 IST 2019
+@default-spring-milestone-https\://repo.spring.io/milestone/.lastUpdated=1569427907221
+https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1569427930111
+https\://repo.spring.io/snapshot/.error=Could not transfer artifact com.fasterxml.jackson.datatype\:jackson-datatype-jsr310\:jar\:2.9.4 from/to spring-snapshot (https\://repo.spring.io/snapshot)\: repo.spring.io
+https\://repo.spring.io/milestone/.error=Could not transfer artifact com.fasterxml.jackson.datatype\:jackson-datatype-jsr310\:jar\:2.9.4 from/to spring-milestone (https\://repo.spring.io/milestone)\: repo.spring.io
+https\://repo.maven.apache.org/maven2/.lastUpdated=1569429002370
+@default-spring-snapshot-https\://repo.spring.io/snapshot/.lastUpdated=1569427908264
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=

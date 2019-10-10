@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 25 21:59:56 IST 2019
+@default-spring-milestone-https\://repo.spring.io/milestone/.lastUpdated=1569427907103
+https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1569427930053
+https\://repo.spring.io/snapshot/.error=Could not transfer artifact org.springframework\:spring-jcl\:jar\:5.0.4.RELEASE from/to spring-snapshot (https\://repo.spring.io/snapshot)\: repo.spring.io
+https\://repo.spring.io/milestone/.error=Could not transfer artifact org.springframework\:spring-jcl\:jar\:5.0.4.RELEASE from/to spring-milestone (https\://repo.spring.io/milestone)\: repo.spring.io
+https\://repo.maven.apache.org/maven2/.lastUpdated=1569428996219
+@default-spring-snapshot-https\://repo.spring.io/snapshot/.lastUpdated=1569427908112
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=
