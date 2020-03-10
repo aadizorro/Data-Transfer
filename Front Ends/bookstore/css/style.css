@@ -1,0 +1,18 @@
+body{
+    background-color: slategrey;
+}
+body h2{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#books h4{
+    margin-left: 45%;
+    text-underline-position: below;
+}
+
+#main_buttons{
+}
+#main_buttons h3{
+    float: left;
+}

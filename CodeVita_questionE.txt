@@ -1,0 +1,93 @@
+Angels vs Devils
+Problem Description
+In a board game (12x12) of Angels vs Devils, various devils try to kill an angel whose aim is to get across the board. Person playing for devil can place 3 devils at any cell on the board, each devil has different powers.
+
+Starting point of Angel can only be on border but not corners of the board and will be provided as input. He will walk in a straight line (horizontal or vertical only) across the board, one cell every second. For example, if he is placed on the left border he will move right towards the right border. Starting points and types of devils will be provided as input, their powers are as follows (please also refer the image in Example 1).
+
+OGRE (O): He cannot move but he can kill with his breath. His powers change with time.
+
+· In 1st second Ogre can kill angel if the angel reaches Ogre’s location
+
+· In 2nd second Ogre can kill angel surrounding upto 8 neighbouring cells (see diagram)
+
+· In 3rd second Ogre can kill angel if the angel reaches Ogre’s location
+
+· In 4th second Ogre is powerless i.e. even if angel reaches Ogre’s location, Ogre cannot harm him
+
+XiXi (X): He has the power to kill an angel only if both the following conditions are true
+
+· He is active
+
+· Angel is on same colored cell as XiXi
+
+XiXi is active only for 1 particular second in this game. According to Figure 1, XiXi is on cell D8. What this means is – XiXi will be active only in 8th second and if and only if angel is on blue colored square at 8th second, XiXi can kill the angel.
+
+ZeeSNAKE (Z): He leaves a poison trail and moves in 'Z' shape. His first move is 'down' and then 'right' and keeps on making a trail in that order until he reaches the border. If he reaches the 'Bottom Border' he starts moving 'up' instead of 'down' and vice-versa. If he reaches the 'Right Border' he starts moving 'left' instead of 'right' and vice-versa. Angel coming on the poison box will die immediately. Trail created by him till 12th second is shown in Figure 1
+
+You need to provide the box number on which the Angel gets killed, or output 'SS' if Angel successfully crosses the board
+
+Constraints
+Angel starts from the border but not from the corners (i.e. cells A1, A12, L1 and L12)
+
+Starting points of angel and all the devils will be different
+
+Powers of devils do not conflict. Thus if an angel reaches a cell which is under influence of more than one devil’s power, the angel will still get killed
+
+Angel cannot stop, he has to move every second
+
+Input Format
+First Line contains the starting point of Angel at t = 1.
+
+Second Line contains the types of devils in order delimited by comma (,).
+
+Third Line contains starting points of devils (at t = 1) in order delimited by comma (,).
+
+Output
+Cell number where the angel gets killed, if angel does not get killed then print "SS"
+
+Test Case
+
+Explanation
+Example 1
+
+Input
+
+K12
+
+O,X,Z
+
+I3,D8,C4
+
+Output
+
+K5
+
+Explanation
+
+Angel will be killed by the Devil XiXi as at the 8th second, he can kill angel on blue boxes
+
+com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@d8e5e04:image1.jpeg
+
+Figure. 1.
+
+Example 2
+
+Input
+
+I12
+
+Z,O,X
+
+K2,B10,G3
+
+Output
+
+SS
+
+Explanation
+
+Angel is successfully saved because no devil’s power is able to harm him.
+
+com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@d8e5e04:image2.jpeg
+
+Figure. 2.

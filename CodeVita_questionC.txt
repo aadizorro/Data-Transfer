@@ -1,0 +1,87 @@
+Philaland Club
+Problem Description
+Coders of Philaland have come up with a sport to test smartness of coders on the Island. Ada and Grace were assigned a task to organize teams to set-up the challenging problems for the sport. Ada nominated some programmers and categorized them on the basis their competitive programming experience. Programmers with experience greater than 5 years are in category A whereas rest are in category B .
+
+Grace suggested that there should be exactly  K  programmers of category A in a team. However, there is no limit on the number of programmers of category B . M  and  N  numbers of programmers are present in category A  and  B  respectively.
+
+Grace wants to know the number of ways she can form a team using above information.
+
+Grace and Ada are busy with environment setup for the sport, so they asked you to help them.
+
+Since the answer could be very large, print answer modulo 1000000007.
+
+Constraints
+1<=T<=10000
+
+1<=M<=500000
+
+1<=N<= 500000
+
+K<=M
+
+Input Format
+First line provides an integer T denoting number of test cases.
+
+Next T lines contain three space separated integers 
+
+M:= number of programmers of category A 
+
+N:= Number of programmers of category B and 
+
+K:= Number of programmers of category A , required in a team.
+
+Output
+For each test case T print a single line containing the answer. 
+
+Test Case
+
+Explanation
+Example 1
+
+Input
+
+1
+
+3 1 2
+
+Output
+
+6
+
+Explanation
+
+Here M=3, N=1, K=2
+
+Let’s denote A1, A2, A3 be the programmers from A category and B1 from B category.
+
+The requirement of programmers from A category is K = 2. Hence following are possible ways to make a team.
+
+A1 , A2 , B1
+
+A1 , A3 , 
+
+A2 , A3 , 
+
+A1 , A3 , B1
+
+A1 , A2
+
+A2 , A3 , B1
+
+Input
+
+1
+
+4 1 3
+
+Output
+
+8
+
+Explanation
+
+Here M=4, N=1, K=3
+
+Lets denote A1, A2, A3, A4 be the programmers from A category and B1 from B category.
+
+The requirement of programmers from A category is K = 3. Therefore only 8 teams are possible.
